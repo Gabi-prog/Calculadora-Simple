@@ -4,9 +4,59 @@ html {
 }
 body {
     margin: 0 30% 0 30%;
-    background-color: palevioletred;
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(216, 116, 149);
+    font-family: Arial, sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border: #333 solid;
+    border-radius: 10px;
+    width: 65%;
+    font-size: 1rem;
+}
+label {
+    font-size: 1.5rem;
+}
 
+ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+li {
+    text-align: justify; 
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #b9b3b8;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; 
+    font-size: 0.9rem;
+}
+  
+button:hover {
+    background-color: #41627e;
+}
+#resultado {
+  
+    font-size: 30px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+#resultado-container {
+    background-color: #ffffff;
+    border: #333 solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 95%;
+    text-align: left;
 }
